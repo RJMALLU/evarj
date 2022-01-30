@@ -30,7 +30,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe my channel to use the bot',
+                           switch_pm_text='𝐘𝐎𝐔 𝐃𝐈𝐃𝐍'𝐓 𝐉𝐎𝐈𝐍 𝐌𝐘 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐏𝐋𝐙 𝐉𝐎𝐈𝐍 𝐀𝐍𝐃 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍',
                            switch_pm_parameter="subscribe")
         return
 
