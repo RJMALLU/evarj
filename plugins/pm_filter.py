@@ -421,11 +421,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝐌𝐀𝐍𝐔𝐀𝐋 𝐅𝐈𝐋𝐓𝐄𝐑', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝐀𝐔𝐓𝐎 𝐅𝐈𝐋𝐓𝐄𝐑', callback_data='autofilter')
+            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙰𝙻 𝙵𝙸𝙻𝚃𝙴𝚃', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐎𝐍𝐒', callback_data='coct'),
-            InlineKeyboardButton('𝐄𝐗𝐓𝐑𝐀 𝐌𝐎𝐃𝐒', callback_data='extra')
+            InlineKeyboardButton('𝙲𝙾𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct'),
+            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰 𝙼𝙾𝙳𝚂', callback_data='extra')
         ], [
             InlineKeyboardButton('𝐇𝐎𝐌𝐄', callback_data='start'),
             InlineKeyboardButton('𝐒𝐓𝐀𝐓𝐒', callback_data='stats')
@@ -452,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('𝐁𝐀𝐂𝐉', callback_data='about')
+            InlineKeyboardButton('𝐁𝐀𝐂𝐊', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
