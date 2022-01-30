@@ -11,10 +11,10 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- [Source](https://t.me/iwillsendknow) 
+ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐕𝐀𝐈𝐋𝐁𝐀𝐋𝐄
 
 <b>DEVS:</b>
-- <a href=https://t.me/cine_makotta>𝐂𝐈𝐍𝐄𝐌𝐀</a>"""
+<a href=https://t.me/cine_makotta>𝐂𝐈𝐍𝐄𝐌𝐀 𝐊𝐎𝐓𝐓𝐀</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
