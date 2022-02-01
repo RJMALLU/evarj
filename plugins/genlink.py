@@ -29,7 +29,7 @@ async def gen_link_s(bot, message):
     if file_type not in ["video", 'audio', 'document']:
         return await message.reply("Reply to a supported media")
     if message.has_protected_content and message.chat.id not in ADMINS:
-        return await message.reply(f" മോനെ {query.message.reply_to_message.from_user.first_name} ഇത് നിനക്കുലതല്ല 🤭\n\n{query.message.reply_to_message.from_user.first_name} ന്റെ റിക്വസ്റ്റ് ആണ് ഇത് 🙂\n\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ ᴏᴡɴ 🥰\n\n© ᴄɪɴᴇᴍᴀ ᴋᴏᴛᴛᴀ", show_alert=True)")
+        return await message.reply("okda"show_alert=True)
     file_id, ref = unpack_new_file_id((getattr(replied, file_type)).file_id)
     string = 'filep_' if message.text.lower().strip() == "/plink" else 'file_'
     string += file_id
