@@ -364,7 +364,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('𝙷𝙴𝚈",𝚃𝙷𝙴 𝙵𝙸𝙻𝙴 𝙸𝚂 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙿𝙼', show_alert=True)
+                await query.answer('𝙷𝙴𝚈 {u.metion},𝚃𝙷𝙴 𝙵𝙸𝙻𝙴 𝙸𝚂 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙿𝙼', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
